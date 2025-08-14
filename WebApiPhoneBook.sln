@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiPhoneBook", "WebApiPhoneBook\WebApiPhoneBook.csproj", "{89594D25-6D4B-48F8-BA5E-093367B1D771}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89594D25-6D4B-48F8-BA5E-093367B1D771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89594D25-6D4B-48F8-BA5E-093367B1D771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89594D25-6D4B-48F8-BA5E-093367B1D771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89594D25-6D4B-48F8-BA5E-093367B1D771}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4013D512-482A-4620-9B19-D7E262A2E7B8}
+	EndGlobalSection
+EndGlobal

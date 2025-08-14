@@ -1,0 +1,6 @@
+@WebApiPhoneBook_HostAddress = http://localhost:5122
+
+GET {{WebApiPhoneBook_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
