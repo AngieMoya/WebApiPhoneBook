@@ -8,7 +8,7 @@ namespace WebApiPhoneBook.Dtos
     public class CreateContactDto: IValidatableObject
     {
         [Required]
-        [JsonConverter(typeof(JsonStringEnumConverter))]
+        //[JsonConverter(typeof(JsonStringEnumConverter))]
         public required ContactType ContactType { get; set; }
         [Required]
         [MaxLength(100)]

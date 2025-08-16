@@ -143,10 +143,6 @@ namespace WebApiPhoneBook.Controllers
             return NoContent();
         }
 
-        private bool ContactExists(int id)
-        {
-            return _context.Contacts.Any(e => e.Id == id);
-        }
         // Helper method to map entity to DTO
         private ContactDto MapToDto(Contact contact)
         {
