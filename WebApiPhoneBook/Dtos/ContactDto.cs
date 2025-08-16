@@ -9,7 +9,7 @@ namespace WebApiPhoneBook.Dtos
         public int Id { get; set; }
 
         [Required]
-        [JsonConverter(typeof(JsonStringEnumConverter))]
+        //[JsonConverter(typeof(JsonStringEnumConverter))]
         public required ContactType ContactType { get; set; }
 
         [Required]
